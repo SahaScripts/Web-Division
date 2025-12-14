@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Hello</title>
+
+    <style>
+        body {
+            font-family: Times New Roman, serif;
+            text-align: center;
+        }
+
+        h1 {
+            color: maroon;
+            text-decoration: underline;
+        }
+
+        .nav a {
+            margin: 0 10px;
+            color: black;
+            cursor: pointer;
+            text-decoration: underline;
+        }
+
+        .box {
+            width: 90%;
+            margin: 20px auto;
+            padding: 15px;
+            border: 1px solid black;
+            text-align: left;
+        }
+
+        .div1 { background-color: #4fd1c5; }
+        .div2 { background-color: #f6e58d; }
+        .div3 { background-color: #6ab04c; }
+
+       
+        #about {
+            display: none;
+            width: 60%;
+            margin: 20px auto;
+            padding: 15px;
+            border: 2px solid black;
+            background-color: lightgray;
+            text-align: left;
+        }
+    </style>
+
+    <script>
+        function showAbout() {
+            document.getElementById("about").style.display = "block";
+        }
+    </script>
+</head>
+
+<body>
+
+    <h1>Hello !</h1>
+    <p>Welcome to my web page.</p>
+
+    <hr>
+
+   <div class="nav">
+    <a href="Division_page.html">Home</a> |
+    <a href="about.html">About</a> |
+    <a href="Contact.html">Contact</a>
+</div>
+
+
+    <hr>
+
+    <!-- About Section -->
+    <div id="about">
+        <h3>About Me</h3>
+        <p><b>Name:</b> Arnadeep Saha</p>
+        <p><b>Registration No:</b> 24BCE0760</p>
+        <p><b>Branch:</b> CSE Core</p>
+    </div>
+    
+
+    <!-- Div 1 -->
+    <div class="box div1">
+        <h3>Div 1</h3>
+        <ol>
+            <li>Faculty Name: Prof. Jayakumar Sudharsanam</li>
+            <li>Web Programming - Tuesday Theory</li>
+            <li>Web Programming - Friday Lab</li>
+            <li>Web Programming - Wednesday Lab</li>
+        </ol>
+    </div>
+
+    <!-- Div 2 -->
+    <div class="box div2">
+        <h3>Div 2</h3>
+        <ol>
+            <li>Faculty Name: Prof. Jayakumar Sudharsanam</li>
+            <li>Web Programming - Tuesday Theory</li>
+            <li>Web Programming - Friday Lab</li>
+            <li>Web Programming - Wednesday Lab</li>
+        </ol>
+    </div>
+
+    <!-- Div 3 -->
+    <div class="box div3">
+        <h3>Div 3</h3>
+        <ul>
+            <li>Web Programming</li>
+            <li>Wednesday Lab</li>
+            <li>Friday Lab</li>
+            <li>Tuesday Theory</li>
+        </ul>
+    </div>
+
+</body>
+</html>
